@@ -7,6 +7,16 @@
 .login {
   background-color: #269abc;
 }
+footer {
+  padding: 15px;
+  color: white;
+  background-color: #606364;
+  text-align: center;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -4515,7 +4525,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #920d0d;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,

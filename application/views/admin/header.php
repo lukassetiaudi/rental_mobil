@@ -23,7 +23,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo base_url() . 'admin'; ?>">Rental Mobil</a>
+                <a class="navbar-brand" href="<?php echo base_url() . 'admin'; ?>">Kencana Rent Car</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -47,7 +47,8 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                             aria-expanded="false">
-                            <?php echo "Halo, <b>" . $this->session->userdata('nama'); ?></b> <span class="caret"></span>
+                            <?php echo "Halo, <b>" . $this->session->userdata('nama'); ?></b> <span
+                                class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
                             <li>
