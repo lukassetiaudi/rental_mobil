@@ -7,11 +7,18 @@
     <script type="text/javascript" src="<?php echo base_url() . 'assets/js/jquery.js'; ?>"></script>
     <script type="text/javascript" src="<?php echo base_url() . 'assets/js/bootstrap.js'; ?>"></script>
 </head>
+<style type="text/css">
+    .login {
+        background-image: url(<?php echo base_url("assets/img/login2.png"); ?>);
+        background-size: cover;     
+    }
+</style>
+
 <body class="login">
     <div class="col-md-4 col-md-offset-4" style="margin-top: 50px">
         <center>
-            <h2>KENCANA RENT CAR</h2>
-            <h3>LOGIN</h3>
+            <h2 id="h23-color">FAST RENT CAR</h2>
+            <h3 id="h23-color">LOGIN</h3>
         </center>
         <br />
         <?php

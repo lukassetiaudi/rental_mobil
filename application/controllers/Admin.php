@@ -434,26 +434,4 @@ class Admin extends CI_Controller
             redirect("admin/laporan");
         }
     }
-
-    function laporan_pdf()
-    {
-        $this->load->library('dompdf_gen');
-        $dari = $this->input->get('dari');
-        $sampai = $this->input->get('sampai');
-
-        $data['laporan'] = $this->db->query("select * from transaksi,mobil,kostumer where transaksi_mobil=mobil_id and transaksi_kostumer=kostumer_id and date(transaksi_tgl) >= '$dari'")->result();
-        $this->load->view('admin/laporan_pdf', $data);
-
-        $paper_size = 'A4'; // ukuran kertas
-        $orientation = 'landscape'; //tipe format kertas potrait atau landscape
-        $html = $this->output->get_output();
-
-        $this->dompdf->set_paper($paper_size, $orientation);
-        //Convert to PDF
-        $this->dompdf->load_html($html);
-        $this->dompdf->render();
-        $this->dompdf->stream("laporan.pdf", array('Attachment' => 0)); // nama file pdf yang di hasilkan
-
-    }
-
 }
