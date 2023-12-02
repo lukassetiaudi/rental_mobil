@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <title>Login - Kencana Rent Car</title>
+    <title>Login - Fast Rent Car</title>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'assets/css/bootstrap.css' ?>">
     <script type="text/javascript" src="<?php echo base_url() . 'assets/js/jquery.js'; ?>"></script>
     <script type="text/javascript" src="<?php echo base_url() . 'assets/js/bootstrap.js'; ?>"></script>
 </head>
 <style type="text/css">
     .login {
-        background-image: url(<?php echo base_url("assets/img/login2.png"); ?>);
+        background-image: url(<?php echo base_url("assets/img/login4.jpg"); ?>);
         background-size: cover;     
     }
 </style>
