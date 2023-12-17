@@ -1,0 +1,1 @@
+{"version":1,"defects":{"RentalMobilTest::testConsumer":8},"times":{"RentalMobilTest::testReadableDirectory":0.016,"RentalMobilTest::testWriteableDirectory":0.001,"RentalMobilTest::testProducerFirst":0.001,"RentalMobilTest::testProducerSecond":0,"RentalMobilTest::testConsumer":0.027,"RentalMobilTest::testExpectWelcomeMessage":0.001}}
